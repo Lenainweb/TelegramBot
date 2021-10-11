@@ -1,0 +1,12 @@
+__pycache__
+./
+/env_t_bot
+data
+*.pyc
+*.db
+*~
+*.sqlite3
+.vscode
+.docx#
+files/
+python_bot_telegram.code-workspace
