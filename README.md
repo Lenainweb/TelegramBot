@@ -6,8 +6,8 @@
 ##### Clone the repo
 
 ```
-$ git clone https://github.com/Lenainweb/python_bot_telegram.git
-$ cd 
+$ git clone https://github.com/Lenainweb/TelegramBot.git
+
 ```
 
 ##### Initialize a virtualenv
