@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 $ cd TelegramBot
 $ echo "TOKEN = 'your_telegram_token'" >> setting.py
 ```
-#### Bot launch
+## Bot launch
 
 ```
 $ python bot.py
