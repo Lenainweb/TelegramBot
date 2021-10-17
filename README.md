@@ -24,4 +24,14 @@ env_t_bot\Scripts\activate
 ```
 $ pip install -r requirements.txt
 ```
+##### Connecting a telegram token
 
+```
+$ cd TelegramBot
+$ echo "TOKEN = 'your_telegram_token'" >> setting.py
+```
+#### Bot launch
+
+```
+$ python bot.py
+```

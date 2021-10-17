@@ -8,7 +8,6 @@ First, a few handler functions are defined. Then, those functions are passed to
 the Dispatcher and registered at their respective places.
 Then, the bot is started and runs until we press Ctrl-C on the command line.
 Usage:
-Basic Echobot example, repeats messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
@@ -42,8 +41,8 @@ def help_command(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Help!')
 
 
-def echo(update: Update, context: CallbackContext) -> None:
-    """Echo the user message."""
+def talk(update: Update, context: CallbackContext) -> None:
+    """Reply to user messages."""
     out_text = bot(update.message.text)
     update.message.reply_text(out_text)
 
