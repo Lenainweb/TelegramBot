@@ -1,5 +1,9 @@
+#### Educational telegram bot to study the development and deployment process.
+
 ## Dependencies
-* 
+* python-telegram-bot 13.7
+* nltk
+* scikit-learn
 
 ## Setting up
 
